@@ -10,23 +10,28 @@
       type="text/css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body-projet">
     <header>
       <h1 style="text-align: center;">Mon portfolio</h1>
     </header>
+    <div class="menu">
+      <!-- Utilisation d'une checkbox -->
+      <input type="checkbox" id="hamburger">
+      <!-- Label de la checkbox -->
+      <label id="hamburger-logo" for="hamburger">☰</label>
     <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="projets.html">Projets</a></li>
-          <li><a href="etudes.html">Études</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+      <a href="etudes.html">Études</a>
+      <a href="articles.html">Articles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <main>
       <h2>PROJETS RÉALISÉS</h2>
       <div class="projet1">
         <h3>projet 1</h3>
-        <img src="#" alt="img projet 1">
+        <img src="projet1.jpeg" alt="img projet 1">
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
             Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
             Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
@@ -36,7 +41,7 @@
       </div>
       <div class="projet2">
         <h3>projet 2</h3>
-        <img src="#" alt="img projet 2">
+        <img src="projet2.jpeg" alt="img projet 2">
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
             Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
             Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
@@ -46,7 +51,7 @@
       </div>
       <div class="projet3">
         <h3>projet 3</h3>
-        <img src="#" alt="img projet 3">
+        <img src="projet3.jpeg" alt="img projet 3">
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
             Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
             Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
@@ -54,9 +59,9 @@
         </p>
         <a href="#">en savoir plus</a>
       </div>
-
-  </body>
+  </main>
   <footer>
     <p>Réalisé par moussa samaké. Tous droits reversés.</p>
   </footer>
+  </body>
 </html>

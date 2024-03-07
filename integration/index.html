@@ -10,24 +10,32 @@
       type="text/css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="index-body">
     <header>
       <h1 style="text-align: center;">Mon portfolio</h1>
     </header>
    
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="projets.html">Projets</a></li>
-          <li><a href="etudes.html">Études</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-        <div>
-            <img src="" alt="mon image" title="l'image est en rapport avec le contenu de la page">
-            <p>Moussa SAMAKE</p>
+      <div class="menu">
+          <!-- Utilisation d'une checkbox -->
+          <input type="checkbox" id="hamburger">
+          <!-- Label de la checkbox -->
+          <label id="hamburger-logo" for="hamburger">☰</label>
+        <nav>
+          <a href="index.html">Accueil</a>
+          <a href="projets.html">Projets</a>
+          <a href="etudes.html">Études</a>
+          <a href="articles.html">Articles</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <main class="main">
+        <div class="div-main">
+          <p><b><i>Moussa SAMAKE</i></b></p>
+          <img src="mon-image.jpeg" alt="ma photo">
         </div>
+      </main>
+    
+        
         <footer>
           <p>Réalisé par moussa samaké. Tous droits reversés.</p>
         </footer>

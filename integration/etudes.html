@@ -14,18 +14,24 @@
     <header>
       <h1 style="text-align: center;">Mon portfolio</h1>
     </header>
+    <div class="menu">
+      <!-- Utilisation d'une checkbox -->
+      <input type="checkbox" id="hamburger">
+      <!-- Label de la checkbox -->
+      <label id="hamburger-logo" for="hamburger">☰</label>
     <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="projets.html">Projets</a></li>
-          <li><a href="etudes.html">Études</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+      <a href="etudes.html">Études</a>
+      <a href="articles.html">Articles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <main>
       <h2>ÉTUDES</h2>
-      <div>
-        <img src="#" alt="ma photo">
+      <div >
+        <div class="div-profil" >
+          <img class="mon-img" src="mon-image.jpeg" alt="ma photo">
         <ul>
             <li><b><i>Moussa SAMAKE</i></b></li>
             <li>Développeur web/web mobile</li>
@@ -33,6 +39,8 @@
             <li>samakemoussa43#yahoo.fr</li>
             <li>06 35 19 79 21</li>
         </ul>
+        </div>
+        
         <div>
             <h3>2020-2021</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
@@ -45,6 +53,7 @@
             </p>
         </div>
       </div>
+    </main>
       <footer>
         <p>Réalisé par moussa samaké. Tous droits reversés.</p>
       </footer>
